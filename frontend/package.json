@@ -7,6 +7,9 @@
     "build": "vue-cli-service build --dest ../backend/app/views --report",
     "lint": "vue-cli-service lint"
   },
+  "installConfig": { 
+    "pnp": true 
+  },
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",

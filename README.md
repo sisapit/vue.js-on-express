@@ -1,6 +1,11 @@
 
 # Vue.js on Express Starter Setup
 
+## Features
+- Vue.js served by Express.js backend
+- Vue.js dev mode server
+- Yarn Plug'n Play
+
 ## Frontend dev mode
 
 ```bash
