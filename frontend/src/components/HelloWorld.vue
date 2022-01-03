@@ -90,18 +90,18 @@ import http from "../http-common"
 export default {
   name: 'HelloWorld',
   props: {
-    // msg: String
+    msg: String
   },
   data: function() {
     return {
       count: 0,
-      message: 'Error: API is unreachable'
+      message: this.msg
     }
   },
   mounted: function() {
     http.get("/message").
         then(res => {
-          console.info(res.data.data.nessage);
+          console.info(res.data.data.message);
           this.message = res.data.data.message;
           }).
         catch(err => "API-E-GET, " + err)
