@@ -35,7 +35,10 @@ Hint: Install "Vue.js devtools" extension beta xpi for Vue.jw 3 support!
 
 ## Project setup
 ```bash
+# Install dependencies to .pnp/cache using Yarn PnP.
 yarn install
+# Configure Yarn PnP.
+export NODE_OPTIONS="--require ./.pnp.js" 
 ```
 
 ### Compiles and hot-reloads for development
