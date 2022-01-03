@@ -25,9 +25,9 @@
 
 ## Vue.js debugging in Firefox
 1. Install "Vue.js devtools" Firefox extension.
-1. Launch `serve` script. The script automatically openes my Vuie.js web app in a new Firefox browser tab.
+1. Launch `serve` script. The script automatically opens my Vue.js web app in a new Firefox browser tab.
 1. Open "Web Developer Tools" in Firefox. 
-1. Switch to panel "Vue".
+1. Switch to panel "Vue" and examine the Vue.js components and their data elements.
 
 Hint: Doesn't work with remotely controlled Firefox window!
 Hint: Do you see the "Vue" icon on the Firefox toolbar? Is it green?
