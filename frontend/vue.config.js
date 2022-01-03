@@ -1,6 +1,6 @@
 module.exports = {
     configureWebpack: {
-      devtool: 'source-map'
+      devtool: 'source-map' // needed for remote debugging support
     }
   }
   
