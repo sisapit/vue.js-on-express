@@ -1,12 +1,9 @@
 .DS_Store
 node_modules
-frontend/build
-frontend/.pnp.js
-frontend/.pnp/
-backend/build
+build
+dest
+.pnp
 backend/app/views
-backend/.pnp.js
-backend/.pnp/
 
 # local env files
 .env.local
